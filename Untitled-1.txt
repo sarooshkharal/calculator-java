@@ -9,17 +9,17 @@ public class calc
         Scanner in = new Scanner(System.in);
         double a, b, c = 0.0;
 
-        System.out.print("Enter the first number \n");
+        System.out.print("Enter number \n");
         a = in.nextDouble();
-        System.out.print("And enter second  \n");
+        System.out.print("And enter second number  \n");
         b = in.nextDouble();
-        System.out.print("Choose the operation  " +
+        System.out.print("Choose the operation blow  " +
               "\n1.Addition" +
         		"\n2.Subtraction" +
         		"\n3.Multiplication" +
         		"\n4.Division" +
         		"\n5.Power" +
-        		"\n#Please enter the number of operation \n");
+        		"\n#chose correct option \n");
         double somethin = in.nextDouble();
         double addition = 1;
         double subtraction = 2;
@@ -28,16 +28,16 @@ public class calc
         double power = 5;
         if (somethin == addition) {
         	c = a + b;  
-        	System.out.println(a + " + " + b + " = " + c);  }
+        	System.out.println(Answer a + " + " + b + " = " + c);  }
         else if (somethin == subtraction)  {
         	c = a - b;  
-        	System.out.println(a + " - " + b + " = " + c);	}
+        	System.out.println(Answer a + " - " + b + " = " + c);	}
         else if (somethin == multiplication)	{
         	c = a * b;   
-        	System.out.println(a + " * " + b + " = " + c);	}
+        	System.out.println(Answer a + " * " + b + " = " + c);	}
         else if (somethin == division)   {
         	c = a / b;  
-        	System.out.println(a + " / " + b + " = " + c);	}
+        	System.out.println(Answer a + " / " + b + " = " + c);	}
         else if (somethin == power)	{
         	System.out.println("Enhance A or B?" +
         			"\n1.A" +
